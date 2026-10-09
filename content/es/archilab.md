@@ -31,10 +31,10 @@ El Archibrazo es una de las tres organizaciones socias del *Prisma Argentina Act
 
 El programa se rinde por hitos. Para cada uno, la comunidad de Cardano aprueba primero el plan y después revisa la evidencia de lo hecho; recién entonces se liberan los fondos. Son tres hitos. Estos son los dos primeros, con su estado al 9 de octubre de 2026:
 
-| Hito | Entrega | Presupuesto | Estado |
-| :-- | :-- | :-- | :-- |
-| 1. Bases, alianzas e infraestructura | Septiembre de 2026 | 18.000 ADA | Evidencia presentada, en revisión |
-| 2. Intensivo de aprendizaje en acción | Octubre de 2026 | 18.000 ADA | Plan aprobado |
+| Hito | Entrega | Estado |
+| :-- | :-- | :-- |
+| 1. Bases, alianzas e infraestructura | Septiembre de 2026 | Evidencia presentada, en revisión |
+| 2. Intensivo de aprendizaje en acción | Octubre de 2026 | Plan aprobado |
 
 #### Hito 1. Bases, alianzas e infraestructura
 
@@ -66,6 +66,8 @@ El hito final, previsto para noviembre de 2026, cubre la hackatón, los prototip
 ### Hack Buenos Aires, de Midnight
 
 ArchiLab participó de [Hack Buenos Aires](https://midnight.network/hackathon/hack-buenos-aires), la hackatón oficial de Midnight para quienes desarrollan en América Latina. Fue el 7 y 8 de agosto de 2026 en La Maquinita Co, en Palermo: 48 horas presenciales para diseñar y publicar una aplicación que proteja datos sensibles.
+
+Durante la hackatón, ArchiLab desplegó Prisma para El Archibrazo. El trabajo quedó publicado días después en [GitHub](https://github.com/Archibrazo/).
 
 - **La tecnología.** Midnight es una blockchain de protección de datos. Permite que una aplicación maneje información sensible y elija qué se hace público. Los contratos se escriben en Compact, un lenguaje con sintaxis parecida a TypeScript, y por defecto todo es privado.
 - **El formato.** Equipos de hasta cuatro personas en dos categorías: *Open*, para equipos con experiencia previa en Midnight, y *Beginner*, para quienes construían sobre la red por primera vez.
