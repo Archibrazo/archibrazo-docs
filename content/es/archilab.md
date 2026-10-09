@@ -1,11 +1,11 @@
 ---
-title: Archilab
-description: Archilab es la unidad productiva de la cooperativa de El Archibrazo que investiga y despliega todo lo relativo a datos, de la web y el ticketing a los flujos de trabajo y blockchain.
+title: ArchiLab
+description: ArchiLab es el laboratorio de la cooperativa de El Archibrazo, la unidad productiva que investiga y despliega todo lo relativo a datos, de la web y el ticketing a los flujos de trabajo y blockchain.
 ---
 
-# Archilab
+# ArchiLab
 
-Archilab es la unidad productiva de la cooperativa encargada de investigar y desplegar todo lo relativo a datos.
+ArchiLab es el laboratorio de la cooperativa: la unidad productiva encargada de investigar y desplegar todo lo relativo a datos.
 
 ## Qué hace
 

@@ -4,7 +4,7 @@
 export default {
   index: 'Inicio',
   historia: 'Historia',
-  archilab: 'Archilab',
+  archilab: 'ArchiLab',
   eventos: 'Eventos',
   prisma: 'Sobre Prisma',
 };
