@@ -2,7 +2,8 @@
 
 import { usePathname } from 'next/navigation'
 import { Layout } from 'nextra-theme-docs'
-import { ReactNode, useMemo } from 'react'
+import { ReactNode, useEffect, useMemo } from 'react'
+import { DEFAULT_LOCALE, isLocale } from '@/lib/site'
 
 interface LocaleAwareLayoutProps {
   children: ReactNode
@@ -23,10 +24,15 @@ export function LocaleAwareLayout({
 
   const locale = useMemo(() => {
     const segments = pathname?.split('/').filter(Boolean) || []
-    const first = segments[0] || 'en'
-    const known = ['en', 'es', 'pt'] as const
-    return (known as readonly string[]).includes(first) ? first : 'en'
+    const first = segments[0]
+    return isLocale(first) ? first : DEFAULT_LOCALE
   }, [pathname])
+
+  // The root layout renders one <html lang> for every route; keep it in step
+  // with the locale actually being read.
+  useEffect(() => {
+    document.documentElement.lang = locale
+  }, [locale])
 
   const pageMap = useMemo(() => {
     const folder = fullPageMap.find(
@@ -55,7 +61,11 @@ export function LocaleAwareLayout({
       footer={footer}
       sidebar={{ autoCollapse: true, defaultMenuCollapseLevel: 1 }}
       editLink={null}
-      nextThemes={{ defaultTheme: 'dark' }}
+      // The repository has issues disabled, so there is nowhere to send feedback yet.
+      feedback={{ content: null }}
+      // The brand is dark only: no theme switch, no light mode.
+      darkMode={false}
+      nextThemes={{ defaultTheme: 'dark', forcedTheme: 'dark' }}
     >
       {children}
     </Layout>
