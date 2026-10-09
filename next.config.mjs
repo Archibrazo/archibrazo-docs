@@ -27,6 +27,12 @@ export default withNextra({
         permanent: false,
       },
       {
+        // Former placeholder page; its text now lives in "Sobre Prisma".
+        source: '/es/segunda-pagina',
+        destination: '/es/prisma',
+        permanent: true,
+      },
+      {
         source: '/pitch',
         destination: '/en/context-narrative/decks/2026/1',
         permanent: false,

@@ -1,32 +1,43 @@
 ---
+title: El Archibrazo
 sidebarTitle: Inicio
+description: Documentación pública de El Archibrazo, centro cultural cooperativo en Almagro, Buenos Aires. Su historia, sus espacios y los procesos que comparte con otras comunidades.
 ---
 
-## ¿Por qué? 
+# El Archibrazo
 
-En un contexto donde las crisis y sus efectos se multiplican, Prisma promueve caminos de transición hacia futuros que sostengan la vida mediante la experimentación responsable e involucrando a distintos actores que trabajan de manera alineada. Estas personas y organizaciones necesitan reflexionar sobre sus acciones mientras ensayan nuevas formas de hacer, y compartir con un público más amplio lo que van aprendiendo, respetando la complejidad de los sistemas en los que intervienen.
+El Archibrazo es un centro cultural cooperativo en Almagro, Buenos Aires. Funciona en la casa de Mario Bravo 441, donde Juan Andralis instaló su imprenta en 1966, y desde 2009 lo gestiona la Cooperativa de Trabajo Archicoop. Ahí conviven teatro, música en vivo, talleres, cine y encuentros, sostenidos por quienes trabajan en el espacio.
 
-Los cambios a nivel sistémico que hacen posibles estos procesos de transición se impulsan de manera intencional a través de transformaciones en la forma de observar, de estar en el mundo y de relacionarnos. El reto que abordamos consiste en hacer visible este proceso de aprendizaje continuo, el cual desarrolla prácticas de diseño y facilitación más conscientes.
+Este sitio reúne la documentación pública del Archi: de dónde viene y qué procesos comparte con otras comunidades. La cartelera, las entradas y los talleres están en [archibrazo.org](https://www.archibrazo.org).
 
-## ¿Qué?
+## En este sitio
 
-Los "viajes de aprendizaje en acción" son procesos de codiseño de intervenciones sistémicas en comunidades locales de un territorio. Se llevan a cabo de manera participativa durante encuentros presenciales intensivos (_hackathons_), en los que se aprende de forma colaborativa y colectiva a partir del potencial de cada comunidad. Las acciones o intervenciones que emergen se documentan y comparten como estudios de caso, lo que permite visibilizar el trabajo de un sistema completo desde múltiples perspectivas.
+- **[Historia](/es/historia).** Seis décadas en Mario Bravo, de la imprenta surrealista a la cooperativa.
+- **[ArchiLab](/es/archilab).** El laboratorio de la cooperativa, que investiga y despliega todo lo relativo a datos, y las acciones en las que participa.
+- **[Hack Solarpunk](/es/eventos/argentina).** El encuentro de aprendizaje en acción facilitado por Prisma, en el que El Archibrazo participa como colaborador: las [categorías](/es/eventos/argentina/categorías-solarpunk) de proyectos, el [equipo](/es/eventos/argentina/equipo), los [procesos](/es/eventos/argentina/procesos) para organizarse y las [preguntas frecuentes](/es/eventos/argentina/preguntas-frequentes).
+- **[Sobre Prisma](/es/prisma).** Quiénes facilitan estos procesos y con qué propósito.
 
-## ¿Dónde?
+## La casa
 
-Trabajamos con personas y organizaciones que actúan directamente en el territorio, así como con _hubs_ y redes de centros aliados alineados con el propósito de Prisma. Estos actores cumplen un rol nodal en sus regiones y fortalecen activamente las capacidades de sus comunidades. Son estos centros los que acogen y organizan los encuentros presenciales intensivos.
+El Archi tiene dos salas, un resto-bar y una terraza:
 
-## ¿Cómo?
+- **Sala Andralis**, la sala grande, en el antiguo galpón de impresión. Teatro, música y danza.
+- **Sala Orozco**, una caja negra de formato chico para ensayos, lecturas y performance.
+- **La Pulpería**, el resto-bar cooperativo, con cocina propia.
+- **La terraza**, al aire libre.
 
-Diseñamos procesos que combinan diseño regenerativo, innovación y facilitación para crear las condiciones que permitan una acción colectiva alineada y emergente.
+La biblioteca, con el archivo de Andralis y las ediciones de la imprenta, está en catalogación. Las medidas, el equipamiento y las condiciones de alquiler están en [Las salas](https://www.archibrazo.org/nuestras-salas/).
 
-## ¿Cuándo?
+## Datos institucionales
 
-El próximo viaje de aprendizaje en acción consiste en una cohorte distribuida de centros organizadores de _hackathons_ y participantes en toda África subsahariana, en preparación para CATS.
+- **Entidad:** Cooperativa de Trabajo Archicoop Ltda., con matrícula del INAES (Res. 1701/2010).
+- **Sitio de Interés Cultural de la Nación** (Res. 340/2009).
+- **Sitio de Interés Cultural de la Ciudad de Buenos Aires** (Legislatura porteña, 2025).
 
-## ¿Quiénes?
+## Dónde estamos
 
-Somos un equipo estrechamente articulado, con las capacidades específicas necesarias para impulsar este trabajo. Nuestra experiencia combinada abarca la facilitación, la coordinación de redes, el diseño y el desarrollo tecnológico.
+Mario Bravo 441, Almagro, Ciudad de Buenos Aires.
 
-
-
+- [Cartelera](https://www.archibrazo.org/agenda/)
+- [Contacto](https://www.archibrazo.org/contacto/)
+- [Instagram](https://www.instagram.com/archibrazo)
