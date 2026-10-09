@@ -13,7 +13,8 @@ Este sitio reúne la documentación pública del Archi: de dónde viene y qué p
 ## En este sitio
 
 - **[Historia](/es/historia).** Seis décadas en Mario Bravo, de la imprenta surrealista a la cooperativa.
-- **[Hack Solarpunk](/es/eventos/argentina).** El encuentro de aprendizaje en acción facilitado por Prisma: las [categorías](/es/eventos/argentina/categorías-solarpunk) de proyectos, el [equipo](/es/eventos/argentina/equipo), los [procesos](/es/eventos/argentina/procesos) para organizarse y las [preguntas frecuentes](/es/eventos/argentina/preguntas-frequentes).
+- **[Archilab](/es/archilab).** La unidad de la cooperativa que investiga y despliega todo lo relativo a datos.
+- **[Hack Solarpunk](/es/eventos/argentina).** El encuentro de aprendizaje en acción facilitado por Prisma, en el que El Archibrazo participa como colaborador: las [categorías](/es/eventos/argentina/categorías-solarpunk) de proyectos, el [equipo](/es/eventos/argentina/equipo), los [procesos](/es/eventos/argentina/procesos) para organizarse y las [preguntas frecuentes](/es/eventos/argentina/preguntas-frequentes).
 - **[Sobre Prisma](/es/prisma).** Quiénes facilitan estos procesos y con qué propósito.
 
 ## La casa
