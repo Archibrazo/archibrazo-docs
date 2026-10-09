@@ -37,6 +37,14 @@ export default withNextra({
         destination: '/en/context-narrative/decks/2026/1',
         permanent: false,
       },
+      {
+        // Address of a page that is no longer published. It is cited as the
+        // Archibrazo docs link in the Catalyst milestone evidence (project
+        // 1400100), so it has to keep landing on the site.
+        source: '/es/00%20-%20Home',
+        destination: '/es',
+        permanent: false,
+      },
     ]
   },
 })
