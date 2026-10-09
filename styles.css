@@ -2,77 +2,200 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-prisma-a: #cd5aff;
-  --color-prisma-b: #8067ff;
-  --color-prisma-c: #ef64ff;
-  --color-prisma-d: #ff4b85;
-  --color-prisma-e: #7faec2;
-  --color-prisma-f: #02b4ff;
-  --font-custom: "Custom", sans-serif;
-  --font-custom-bold: "CustomBold", sans-serif;
+  /* Brand accents — El Archibrazo design system v1.0.
+     The token names are inherited from upstream and referenced across
+     components and content, so only their values change here. */
+  --color-prisma-a: #ff3d7f; /* pink · primary accent, CTAs */
+  --color-prisma-b: #c8259a; /* magenta deep · filled surfaces */
+  --color-prisma-c: #ffb8d4; /* pink soft */
+  --color-prisma-d: #fbbf24; /* amber */
+  --color-prisma-e: #ffc497; /* orange soft · inline highlights */
+  --color-prisma-f: #ff8a3d; /* orange · warm accent */
+  --font-custom: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font-custom-bold: "Bree Serif", Georgia, "Times New Roman", serif;
   --font-squid: "Squid", sans-serif;
 }
 
 :root {
   --nextra-content-width: 100% !important;
+
+  /* Surfaces */
+  --archi-black: #0a0a0a;
+  --archi-night: #161616;
+  --archi-line: #242424;
+  --archi-line-2: #3a3a3a;
+  /* Accents */
+  --archi-pink: #ff3d7f;
+  --archi-orange: #ff8a3d;
+  --archi-gradient: linear-gradient(95deg, #ff3d7f 0%, #ff8a3d 100%);
+  /* Warm neutrals */
+  --archi-cream: #f5f1ea;
+  --archi-cream-soft: #d6cfc1;
+  --archi-muted: #a8a29e;
+  /* Type */
+  --archi-font-display: "Bree Serif", Georgia, "Times New Roman", serif;
+  --archi-font-body: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 }
 
 .nextra-breadcrumb {
   @apply max-w-[850px] w-full mx-auto;
 }
 
-/* Load the actual font */
+/* Bree Serif (SIL OFL 1.1) — display face. One weight only: regular. */
 @font-face {
-  font-family: "CustomBold";
-  src: url("/fonts/BebasNeue-Regular.woff2") format("woff2");
-  font-weight: 700;
+  font-family: "Bree Serif";
+  src: url("/fonts/BreeSerif-latin.woff2") format("woff2");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Load the actual font */
 @font-face {
-    font-family: "Custom";
-    src: url("/fonts/SpaceGrotesk-VariableFont_wght.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Bree Serif";
+  src: url("/fonts/BreeSerif-latin-ext.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* Load the actual font */
+/* Montserrat (SIL OFL 1.1) — body and UI, variable weight 100–900. */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-latin.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-latin-ext.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-italic-latin.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-italic-latin-ext.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Used by FeatureText in upstream content. */
 @font-face {
   font-family: "Squid";
   src: url("/fonts/Game_Of_Squids.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
-/* Set the background color for the whole page */
-.dark body {
-    background-color:rgb(0, 0, 0); /* Change this to your desired background color */
-    color: #ffffff; 
+/* The site is dark only (see `forcedTheme` in LocaleAwareLayout). */
+body {
+  font-family: var(--archi-font-body);
+  background-color: var(--archi-black);
+  color: var(--archi-cream-soft);
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Light theme styles when Nextra switches to light mode */
-html:not(.dark) body {
-    background-color: #ffffff;
-    color: #333333;
+/* Bree Serif ships a single weight, so headings stay at 400 instead of
+   letting the browser fake a bold. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--archi-font-display);
+  font-weight: 400;
+  font-synthesis: none;
+  color: var(--archi-cream);
 }
 
-/* Set font style for headings */
-.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
-    font-family: 'Space Grotesk', sans-serif; 
-    color:rgb(249, 249, 249); 
+/* Accent is reserved for links inside page content; navigation, sidebar and
+   table of contents keep the theme's neutral link colours. */
+article main a {
+  color: var(--archi-orange);
+  text-decoration: none;
 }
 
-/* Set font style for links */
-a {
-    color: #7faec2; 
-    text-decoration: none; 
+article main a:hover {
+  color: var(--archi-pink);
+  text-decoration: none;
 }
 
-/* Add hover effect to links */
-a:hover {
-    color: #c362ff; 
-    text-decoration: none; 
+/* Brand lockup in the navbar */
+.archi-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: opacity 0.2s ease;
+}
+
+.archi-brand:hover {
+  opacity: 0.8;
+}
+
+.archi-brand-mark {
+  border-radius: 9999px;
+  /* The mark is a black disc; a hairline keeps its edge on the dark navbar. */
+  box-shadow: 0 0 0 1px var(--archi-line-2);
+}
+
+.archi-brand-name {
+  font-family: var(--archi-font-display);
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--archi-cream);
+  white-space: nowrap;
+}
+
+.archi-nav-link {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--archi-muted);
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.archi-nav-link:hover {
+  color: var(--archi-cream);
+}
+
+.archi-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 0.8125rem;
+  color: var(--archi-muted);
+}
+
+.archi-footer strong {
+  font-family: var(--archi-font-display);
+  font-weight: 400;
+  color: var(--archi-cream);
+}
+
+.archi-footer a {
+  color: var(--archi-cream-soft);
+  transition: color 0.2s ease;
+}
+
+.archi-footer a:hover {
+  color: var(--archi-pink);
 }
 
 .aspect {
@@ -142,7 +265,7 @@ a:hover {
 }
 
 .animated-link:hover .animated-rect {
-  stroke: #cd5aff;
+  stroke: var(--archi-pink);
 }
 
 .linked-path {
@@ -155,7 +278,7 @@ a:hover {
 
 /* Hover Area */
 .hover-area-link:hover .linked-path {
-  stroke: #cd5aff; /* Change the stroke color to red when hovered */
+  stroke: var(--archi-pink); /* Change the stroke color to red when hovered */
   transition: stroke 0.3s ease; /* Smooth transition for stroke color change */
 }
 

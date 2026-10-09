@@ -1,8 +1,14 @@
 import { notFound } from 'next/navigation';
 import { generateStaticParamsFor, importPage } from 'nextra/pages';
 import { useMDXComponents as getMDXComponents } from '@/mdx-components.js';
+import { generatePageMetadata } from '@/app/utils/metadata';
 
 export const generateStaticParams = generateStaticParamsFor('mdxPath');
+
+export async function generateMetadata(props) {
+  const params = await props.params;
+  return generatePageMetadata(params.mdxPath);
+}
 
 const Wrapper = getMDXComponents().wrapper;
 
