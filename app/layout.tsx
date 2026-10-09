@@ -9,7 +9,7 @@ import type { Metadata } from 'next';
 import { Analytics } from "@vercel/analytics/react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { AuthProvider } from '@/contexts/AuthContext';
-import { site } from '@/lib/site';
+import { DEFAULT_LOCALE, site } from '@/lib/site';
 import { LocaleAwareLayout } from './components/LocaleAwareLayout';
 import { LanguageSelector } from './components/LanguageSelector';
 import { BrandLogo } from './components/BrandLogo';
@@ -88,7 +88,7 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   return (
     // `lang` is the build-time default; LocaleAwareLayout syncs it to the
     // locale in the URL, which this layout cannot see.
-    <html lang="en" dir="ltr" suppressHydrationWarning>
+    <html lang={DEFAULT_LOCALE} dir="ltr" suppressHydrationWarning>
       <Head
         color={{ hue: 340, saturation: 100, lightness: 62 }}
         backgroundColor={{ dark: '#0a0a0a', light: '#0a0a0a' }}

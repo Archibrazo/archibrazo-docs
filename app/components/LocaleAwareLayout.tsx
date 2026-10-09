@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation'
 import { Layout } from 'nextra-theme-docs'
 import { ReactNode, useEffect, useMemo } from 'react'
+import { DEFAULT_LOCALE, isLocale } from '@/lib/site'
 
 interface LocaleAwareLayoutProps {
   children: ReactNode
@@ -23,9 +24,8 @@ export function LocaleAwareLayout({
 
   const locale = useMemo(() => {
     const segments = pathname?.split('/').filter(Boolean) || []
-    const first = segments[0] || 'en'
-    const known = ['en', 'es', 'pt'] as const
-    return (known as readonly string[]).includes(first) ? first : 'en'
+    const first = segments[0]
+    return isLocale(first) ? first : DEFAULT_LOCALE
   }, [pathname])
 
   // The root layout renders one <html lang> for every route; keep it in step

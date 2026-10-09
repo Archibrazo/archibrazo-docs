@@ -3,13 +3,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { isLocale, site } from '@/lib/site'
+import { DEFAULT_LOCALE, isLocale, site } from '@/lib/site'
 
 /** Navbar lockup. Links to the docs home of the locale being read. */
 export function BrandLogo() {
   const pathname = usePathname()
   const first = pathname?.split('/').filter(Boolean)[0]
-  const locale = isLocale(first) ? first : 'en'
+  const locale = isLocale(first) ? first : DEFAULT_LOCALE
 
   return (
     <Link href={`/${locale}`} className="archi-brand" aria-label={site.name}>

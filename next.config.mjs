@@ -21,8 +21,9 @@ export default withNextra({
   async redirects() {
     return [
       {
+        // The site opens in Spanish (DEFAULT_LOCALE in lib/site.ts).
         source: '/',
-        destination: '/en',
+        destination: '/es',
         permanent: false,
       },
       {

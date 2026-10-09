@@ -6,8 +6,11 @@
  * one file instead of the layout, the metadata helpers and the SEO routes.
  */
 
-export const LOCALES = ['en', 'es', 'pt'] as const;
+export const LOCALES = ['es', 'en', 'pt'] as const;
 export type Locale = (typeof LOCALES)[number];
+
+/** Locale the site opens in and falls back to. */
+export const DEFAULT_LOCALE: Locale = 'es';
 
 export function isLocale(value: string | undefined): value is Locale {
   return !!value && (LOCALES as readonly string[]).includes(value);

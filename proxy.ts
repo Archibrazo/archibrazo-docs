@@ -1,6 +1,7 @@
 /**
  * Public docs deployment only: copied to `proxy.ts` at artefact root by export.
- * Redirects paths without a locale prefix to `/en/...` (Next.js 16 proxy).
+ * Sends the root to the default locale (`/es`) and other paths without a
+ * locale prefix to `/en/...` (Next.js 16 proxy).
  */
 import { NextRequest, NextResponse } from 'next/server';
 
@@ -46,7 +47,9 @@ export function proxy(request: NextRequest) {
   }
 
   const url = request.nextUrl.clone();
-  url.pathname = `/en${pathname === '/' ? '' : pathname}`;
+  // The site opens in Spanish. Deeper paths without a locale keep resolving to
+  // English, because the upstream English content links to its own pages that way.
+  url.pathname = pathname === '/' ? '/es' : `/en${pathname}`;
   return NextResponse.redirect(url, 307);
 }
 

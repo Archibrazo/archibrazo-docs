@@ -2,10 +2,11 @@
 
 import { usePathname, useRouter } from 'next/navigation'
 import { useState, useRef, useEffect } from 'react'
+import { DEFAULT_LOCALE } from '@/lib/site'
 
 const languages = [
-  { code: 'en', label: 'EN' },
   { code: 'es', label: 'ES' },
+  { code: 'en', label: 'EN' },
   { code: 'pt', label: 'PT' },
 ]
 
@@ -15,7 +16,7 @@ export function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  const currentLocale = pathname?.split('/').filter(Boolean)[0] || 'en'
+  const currentLocale = pathname?.split('/').filter(Boolean)[0] || DEFAULT_LOCALE
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {

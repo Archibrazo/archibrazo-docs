@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { importPage } from 'nextra/pages';
-import { isLocale, site, type Locale } from '@/lib/site';
+import { DEFAULT_LOCALE, isLocale, site, type Locale } from '@/lib/site';
 
 const DESCRIPTION_MAX = 160;
 const DESCRIPTION_MIN = 40;
@@ -85,7 +85,7 @@ export function excerptFromSource(source: string | undefined): string | undefine
  */
 export async function generatePageMetadata(mdxPath: string[] | undefined): Promise<Metadata> {
   const segments = (mdxPath ?? []).filter(Boolean).map(safeDecode);
-  const locale: Locale = isLocale(segments[0]) ? segments[0] : 'en';
+  const locale: Locale = isLocale(segments[0]) ? segments[0] : DEFAULT_LOCALE;
   const isLocaleRoot = segments.length <= 1;
 
   const page = await importPage(mdxPath);
