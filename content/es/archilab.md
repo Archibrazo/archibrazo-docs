@@ -69,7 +69,7 @@ El hito final, previsto para noviembre de 2026, cubre la hackatón, los prototip
 
 ArchiLab participó de [Hack Buenos Aires](https://midnight.network/hackathon/hack-buenos-aires), la hackatón oficial de Midnight para quienes desarrollan en América Latina. Fue el 7 y 8 de agosto de 2026 en La Maquinita Co, en Palermo: 48 horas presenciales para diseñar y publicar una aplicación que proteja datos sensibles.
 
-Durante la hackatón, ArchiLab desplegó Amparo. El proyecto quedó publicado en [GitHub](https://github.com/jikaidoko/midnight-hackathon-ba).
+Durante la hackatón, ArchiLab desplegó Amparo, un canal privado de denuncias que permite reportar un caso sin revelar la identidad de quien denuncia. El proyecto quedó publicado en [GitHub](https://github.com/jikaidoko/midnight-hackathon-ba).
 
 - **La tecnología.** Midnight es una blockchain de protección de datos. Permite que una aplicación maneje información sensible y elija qué se hace público. Los contratos se escriben en Compact, un lenguaje con sintaxis parecida a TypeScript, y por defecto todo es privado.
 - **El formato.** Equipos de hasta cuatro personas en dos categorías: *Open*, para equipos con experiencia previa en Midnight, y *Beginner*, para quienes construían sobre la red por primera vez.
