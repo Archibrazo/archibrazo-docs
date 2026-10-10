@@ -47,6 +47,8 @@ El primer hito arma las condiciones para que el programa funcione. Compromete cu
 
 En la evidencia de este hito, al Archi le corresponden este sitio de documentación, la organización [Archibrazo en GitHub](https://github.com/Archibrazo/) y una aplicación de líneas de tiempo, todavía sin interfaz pública.
 
+El despliegue de Prisma para El Archibrazo se hizo en la hackatón Solarpunk [«Hackeando un Futuro posible. Tecnología blockchain para la regeneración»](https://luma.com/t2yjpuwm), el sábado 20 de junio de 2026.
+
 El plan del hito se aprobó el 26 de septiembre de 2026. La evidencia se presentó el 30 de septiembre y está en revisión.
 
 #### Hito 2. Intensivo de aprendizaje en acción
@@ -67,7 +69,7 @@ El hito final, previsto para noviembre de 2026, cubre la hackatón, los prototip
 
 ArchiLab participó de [Hack Buenos Aires](https://midnight.network/hackathon/hack-buenos-aires), la hackatón oficial de Midnight para quienes desarrollan en América Latina. Fue el 7 y 8 de agosto de 2026 en La Maquinita Co, en Palermo: 48 horas presenciales para diseñar y publicar una aplicación que proteja datos sensibles.
 
-Durante la hackatón, ArchiLab desplegó Prisma para El Archibrazo. El trabajo quedó publicado días después en [GitHub](https://github.com/Archibrazo/).
+Durante la hackatón, ArchiLab desplegó Amparo. El proyecto quedó publicado en [GitHub](https://github.com/jikaidoko/midnight-hackathon-ba).
 
 - **La tecnología.** Midnight es una blockchain de protección de datos. Permite que una aplicación maneje información sensible y elija qué se hace público. Los contratos se escriben en Compact, un lenguaje con sintaxis parecida a TypeScript, y por defecto todo es privado.
 - **El formato.** Equipos de hasta cuatro personas en dos categorías: *Open*, para equipos con experiencia previa en Midnight, y *Beginner*, para quienes construían sobre la red por primera vez.
