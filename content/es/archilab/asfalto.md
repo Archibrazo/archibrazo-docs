@@ -9,7 +9,7 @@ description: Asfalto es la plataforma cultural independiente de Buenos Aires que
 
 Es un proyecto de ArchiLab, el laboratorio de la Cooperativa El Archibrazo, y lo lleva Alexis Paredes.
 
-![Inicio de Asfalto: el mapa de lo que está pasando, con los perfiles que mueven la escena, la búsqueda y los filtros por etiqueta.](/archilab/asfalto/mapa.webp)
+![Inicio de Asfalto: el mapa de lo que está pasando, con la búsqueda y los filtros por etiqueta. Los nombres de los perfiles están difuminados.](/archilab/asfalto/mapa.webp)
 
 ## Qué ofrece
 
@@ -37,7 +37,7 @@ Está prevista una integración con [Masumi](https://www.masumi.network/blogs/mo
 
 Asfalto está en desarrollo y ya tiene su interfaz pública en [asfalto.org](https://asfalto.org). El código todavía no está publicado. La interfaz está pensada primero para el celular.
 
-![Asfalto en el celular: el mapa, los perfiles y los filtros en una sola columna.](/archilab/asfalto/mapa-celular.webp)
+![Asfalto en el celular: el mapa y los filtros en una sola columna, con los nombres de los perfiles difuminados.](/archilab/asfalto/mapa-celular.webp)
 
 ## Contacto
 
