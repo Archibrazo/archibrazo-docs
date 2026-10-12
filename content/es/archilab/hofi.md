@@ -22,8 +22,6 @@ Ken Wilber retoma la idea en su enfoque integral. Para Wilber, todo holón tiene
 
 En HoFi, un holón es una comunidad soberana, como una familia, una cooperativa o una ecoaldea. Hacia adentro es un todo: define sus reglas, su gobernanza y qué cuenta como cuidado. Hacia afuera es una parte: se coordina e intercambia valor con otros holones en una red más amplia.
 
-Leída desde ese enfoque, una tarea de cuidado no es solo un dato medible. También tiene una intención, un sentido compartido dentro de su comunidad y un lugar en las reglas del holón.
-
 Sobre el enfoque, ver Gonzalo Medina Aveledo, [«El enfoque integral holónico de Ken Wilber, otra visión a la hora de investigar»](https://www.redalyc.org/journal/3759/375956270003/html/), *Salus*, vol. 22, n.º 1 (2018).
 
 ## Cómo funciona
@@ -48,6 +46,15 @@ El código es abierto, con licencia AGPL-3.0, y está en [GitHub](https://github
 ## Estado
 
 Según el repositorio, a octubre de 2026 funcionan el agente Tenzo, el bot de Telegram, la autenticación por voz y el panel. Están pendientes las reglas de los holones en GenLayer, la puesta en marcha de HolonChain y el registro de las tareas en la blockchain.
+
+## Hoja de ruta
+
+El plan va de 2026 a 2028, en cuatro etapas:
+
+1. **Fundación.** Diseño del protocolo y del token HoCa, y los primeros contratos inteligentes.
+2. **Validación.** La lógica de evaluación con IA, las pruebas en red de prueba y los primeros flujos de validación.
+3. **Expansión.** La incorporación de los primeros holones, las pruebas con comunidades y los flujos de gobernanza.
+4. **Soberanía.** La puesta en marcha de HolonChain sobre Avalanche, la participación de validadores, la privacidad con conocimiento cero y el lanzamiento público.
 
 ## Enlaces
 
