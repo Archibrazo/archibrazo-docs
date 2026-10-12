@@ -7,7 +7,9 @@ description: Asfalto es la plataforma cultural independiente de Buenos Aires que
 
 [Asfalto](https://asfalto.org) es una plataforma cultural independiente de Buenos Aires. Reúne eventos, espacios, formación y herramientas de gestión cultural en un mismo entorno digital, para conectar lo que ya pasa en salas, talleres, bares, centros culturales y proyectos independientes.
 
-Es un proyecto de ArchiLab, el laboratorio de la Cooperativa El Archibrazo.
+Es un proyecto de ArchiLab, el laboratorio de la Cooperativa El Archibrazo, y lo lleva Alexis Paredes.
+
+![Inicio de Asfalto: el mapa de lo que está pasando, con los perfiles que mueven la escena, la búsqueda y los filtros por etiqueta.](/archilab/asfalto/mapa.webp)
 
 ## Qué ofrece
 
@@ -17,15 +19,25 @@ Es un proyecto de ArchiLab, el laboratorio de la Cooperativa El Archibrazo.
 
 La idea no es reemplazar a la escena sino darle una infraestructura digital más clara, cercana y útil.
 
+![Página «Somos» de Asfalto: «La cultura se mueve cerca», con los accesos para publicar un evento y ver espacios.](/archilab/asfalto/somos.webp)
+
 ## Para quién
 
 **Para el público.** Explorar qué pasa cerca, reservar entradas, guardar los pases y armar una lista de favoritos.
 
 **Para espacios y producciones.** Publicar una actividad o un espacio para que aparezca en la agenda y en el mapa. Si el espacio ya tiene ficha, se puede [pedir su gestión](https://asfalto.org/reclamar/) para actualizar datos, fotos y fechas, y responder mensajes y reseñas.
 
+## Tecnología
+
+Asfalto usa WordPress.org como gestor de contenidos, con flujos de trabajo automatizados en n8n.
+
+Está prevista una integración con [Masumi](https://www.masumi.network/blogs/monetize-your-workflows), la red de pagos para agentes de IA sobre Cardano, que permite cobrar por el uso de flujos de n8n.
+
 ## Estado
 
-Asfalto está en desarrollo y ya tiene su interfaz pública en [asfalto.org](https://asfalto.org). El código todavía no está publicado.
+Asfalto está en desarrollo y ya tiene su interfaz pública en [asfalto.org](https://asfalto.org). El código todavía no está publicado. La interfaz está pensada primero para el celular.
+
+![Asfalto en el celular: el mapa, los perfiles y los filtros en una sola columna.](/archilab/asfalto/mapa-celular.webp)
 
 ## Contacto
 
