@@ -28,6 +28,7 @@ Investiga y pone en marcha las herramientas de datos del Archi. Su campo incluye
 ## Proyectos
 
 - **[Asfalto](/es/archilab/asfalto).** Plataforma cultural independiente de Buenos Aires: agenda, mapa de espacios y herramientas de gestión para la escena.
+- **[HoFi](/es/archilab/hofi).** Protocolo de finanzas holísticas que registra y recompensa el trabajo de cuidado en comunidades.
 
 ## Eventos y acciones
 
