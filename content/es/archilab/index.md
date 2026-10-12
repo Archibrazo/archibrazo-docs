@@ -1,5 +1,7 @@
 ---
 title: ArchiLab
+asIndexPage: true
+sidebarTitle: ArchiLab
 description: ArchiLab es el laboratorio de la cooperativa de El Archibrazo, la unidad productiva que investiga y despliega todo lo relativo a datos, de la web y el ticketing a los flujos de trabajo y blockchain.
 ---
 
@@ -22,6 +24,10 @@ Investiga y pone en marcha las herramientas de datos del Archi. Su campo incluye
 - Alexis Paredes
 - Joaquín Poviña
 - Nicolás Salinas
+
+## Proyectos
+
+- **[Asfalto](/es/archilab/asfalto).** Plataforma cultural independiente de Buenos Aires: agenda, mapa de espacios y herramientas de gestión para la escena.
 
 ## Eventos y acciones
 
