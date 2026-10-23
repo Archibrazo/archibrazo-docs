@@ -61,6 +61,7 @@
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "25.6.0",
     "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "chalk": "^5.6.2",
     "execa": "^9.6.1",
     "inquirer": "^13.4.2",

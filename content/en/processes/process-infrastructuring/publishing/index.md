@@ -2,10 +2,13 @@
 asIndexPage: true
 sidebarTitle: Publishing
 ---
+
+> This page documents publishing as a process. For the Publishing *Stack*, as a concept, see [Case-Study](/en/patterns/case-study).
+
 <iframe width="100%" height="515" src="https://www.youtube.com/embed/8_DndwpmPio?si=k7X22ySHm5JzxKBT&amp;start=1754" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Intro
-[Action-learning journeys](/patterns/action-learning%20journeys) (ALJs) are a complex system. They can span from [a single event](/events/accra) in a single hub to [a whole network](/events/summit) of inter-connected events across multiple countries. Common across all events, they are a process of continuous learning, oriented toward action. 
+[Action-learning journeys](/patterns/action-learning%20journeys) (ALJs) are a complex system. They can span from [a single event](/events/accra) in a single hub to [a whole network](/events/summit) of inter-connected events across multiple countries. Common across all events, they are a process of continuous learning, derived from action ([action-learning](/en/patterns/action-learning)).
 
 A [case-study](/patterns/case-study) serves the purpose of communicating the particular nature of a given action-learning journey as well as the outcomes and what they mean for the communities involved. 
 
