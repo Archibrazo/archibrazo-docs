@@ -21,7 +21,7 @@ At the highest level, each event is the interplay of the following four processe
 	- making visible the effects of systems interventions 
 	- reflecting on the approach, harvesting learnings, integrating into practice evolution
 
-![organising.png](/deck_organising.png)
+![organising.png](/deck_26_13.png)
 
 We will aim to automate the registering and configuring of sub-domains, minimum viable service/ api deployments and testing, and porting back into a global visibility mapping interface. These endpoints are the means for communicating activity on-the-ground.
 

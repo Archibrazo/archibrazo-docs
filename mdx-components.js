@@ -17,6 +17,8 @@ import PreviewHero from '@/components/GlobePreview';
 import CasePreview from '@/components/CasePreview';
 import PrivatePageShell from '@/components/PrivatePageShell';
 import PrivateAssetNotice from '@/components/PrivateAssetNotice';
+import MediaCarousel from '@/components/MediaCarousel';
+import ProjectFundamentalsViewerWrapper from '@/components/ProjectFundamentalsViewerWrapper';
 
 // Get the default MDX components
 const themeComponents = getThemeComponents()
@@ -43,6 +45,8 @@ export function useMDXComponents(components) {
     CasePreview,
     PrivatePageShell,
     PrivateAssetNotice,
+    MediaCarousel,
+    ProjectFundamentalsViewerWrapper,
     ...components
   }
 }

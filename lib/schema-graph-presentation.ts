@@ -99,9 +99,19 @@ export function schemaLocationToProtocolFolder(schemaLocation: string): string {
   return segments.join('/');
 }
 
-export function schemaLocationToFocusNodeKey(schemaLocation: string): string {
+export function isProtocolManifestLocation(schemaLocation: string): boolean {
   const basename = schemaLocation.split('/').pop() ?? schemaLocation;
-  return basename.replace(/-/g, '_');
+  return basename.replace(/\.json$/, '') === 'protocol';
+}
+
+export function schemaLocationToFocusNodeKey(schemaLocation: string): string | null {
+  if (isProtocolManifestLocation(schemaLocation)) {
+    return null;
+  }
+
+  const basename = schemaLocation.split('/').pop() ?? schemaLocation;
+  const nodeName = basename.replace(/\.(json|md|mdx)$/, '');
+  return nodeName.replace(/-/g, '_');
 }
 
 export function nodeKeyToLabel(nodeKey: string): string {
@@ -149,7 +159,7 @@ export function buildCytoscapeSubgraph({
 }: {
   relationships: ProtocolRelationship[];
   nodeKeys: string[];
-  focusNodeKey: string;
+  focusNodeKey?: string | null;
 }): CytoscapeSubgraph {
   const graphNodeKeys = new Set(nodeKeys);
 
@@ -158,7 +168,9 @@ export function buildCytoscapeSubgraph({
     graphNodeKeys.add(relationship.to);
   }
 
-  graphNodeKeys.add(focusNodeKey);
+  if (focusNodeKey) {
+    graphNodeKeys.add(focusNodeKey);
+  }
 
   const nodeInstances = buildNodeInstances(graphNodeKeys, relationships);
   const nodes: NodeElement[] = [];
