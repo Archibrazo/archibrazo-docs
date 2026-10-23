@@ -4,7 +4,7 @@ sidebarTitle: Codemods
 
 # Deploy codemods
 
-Some apps need **repo-level changes after fork and before Vercel deploy** — for example, throttling cron schedules to satisfy Vercel Hobby plan limits, or applying brand customizations from stack metadata. Propagate handles this with **app-owned codemods** run via GitHub Actions on the forked repo.
+Some apps need **repo-level changes after fork and before Vercel deploy** - for example, throttling cron schedules to satisfy Vercel Hobby plan limits, or applying brand customizations from stack metadata. Propagate handles this with **app-owned codemods** run via GitHub Actions on the forked repo.
 
 Apps without a `deploy.workflow` in `app.manifest.yaml` are deployed unchanged from the fork default branch.
 

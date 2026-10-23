@@ -27,8 +27,28 @@ export default withNextra({
       },
       {
         source: '/pitch',
-        destination: '/en/context-narrative/decks/2026/1',
+        destination: '/en/context-narrative/decks/2026',
         permanent: false,
+      },
+      {
+        source: '/en/context-narrative/decks/2026/:slide',
+        destination: '/en/context-narrative/decks/2026',
+        permanent: false,
+      },
+      {
+        source: '/es/events/:path*',
+        destination: '/es/eventos/:path*',
+        permanent: true,
+      },
+      {
+        source: '/en/eventos/:path*',
+        destination: '/en/events/:path*',
+        permanent: true,
+      },
+       {
+        source: '/#why',
+        destination: '/en/context-narrative',
+        permanent: true,
       },
     ]
   },
